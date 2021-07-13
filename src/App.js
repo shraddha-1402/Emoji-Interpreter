@@ -8,6 +8,12 @@ const emojiDictionary = {
   "😭": "Crying",
   "😷": "Sick",
   "😍": "Hearty Eyes",
+  "🤑": "Rich",
+  "🤗": "Hugging",
+  "😐": "Neutral",
+  "😴": "Sleepy",
+  "🤔": "Thinking",
+  "😜": "Winking",
 };
 
 function App() {
@@ -23,22 +29,25 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Emoji Interpreter</h1>
-      <p>Know your emotions</p>
-      <input onChange={inputChanged} />
-      <p>Meaning: {meaning}</p>
-      <ul>
-        {
-          Object.keys(emojiDictionary).map((item, index) => {
-            return <li
-              key={index}
-              style={{ cursor: 'pointer' }}
-              onClick={emojiClickHandler}
-            >{item}
-            </li>
-          })
-        }
-      </ul>
+      <header className="App-header">
+        <h1 className="App-heading">Emoji Interpreter</h1>
+        <p className="App-paragraph">With this app, you will never get confused while expressing your emotions 😃</p>
+        <input
+          placeholder="input emoji"
+          className="App-input" onChange={inputChanged} />
+        <h2 className="App-subheading">Meaning: {meaning}</h2>
+        <ul className="list">
+          {
+            Object.keys(emojiDictionary).map((item, index) => {
+              return <li
+                key={index}
+                onClick={emojiClickHandler}
+              >{item}
+              </li>
+            })
+          }
+        </ul>
+      </header>
     </div>
   );
 }
