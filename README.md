@@ -12,12 +12,13 @@
 
 * Second, click on the emoji displayed in the list below the input box
 
-* The meaning will be instantly displayed here 
+* The meaning will be instantly displayed here 👇
+![meaning displayed here](./public/readme-images/meaning-displyed.png)
 
 **So now head to [Emoji Interpreter]() to get the correct meaning of your emoticons and never fear misunderstanding emojis!**
 
 ## Tech-Stack
-![React logo](./public/logo/react.png) ![CSS logo](./public/logo/css3.png) ![JavaScript logo](./public/logo/javascript.png)
+![React logo](./public/readme-images/react.png) ![CSS logo](./public/readme-images/css3.png) ![JavaScript logo](./public/readme-images/javascript.png)
 <br>
 
 ## Connect with me on
