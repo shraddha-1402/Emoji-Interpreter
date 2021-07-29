@@ -15,7 +15,7 @@
 * The meaning will be instantly displayed here 👇
 ![meaning displayed here](./public/readme-images/meaning-displyed.png)
 
-**So now head to [Emoji Interpreter]() to get the correct meaning of your emoticons and never fear misunderstanding emojis!**
+**So now head to [Emoji Interpreter](https://emoticons-interpreter-app.netlify.app/) to get the correct meaning of your emoticons and never fear misunderstanding emojis!**
 
 ## Tech-Stack
 ![React logo](./public/readme-images/react.png) ![CSS logo](./public/readme-images/css3.png) ![JavaScript logo](./public/readme-images/javascript.png)
