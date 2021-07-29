@@ -8,6 +8,12 @@ body{
   color: white;
 }
 
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
 .App-heading{
   font-size: 2.5rem;
   margin-bottom: 0;
@@ -44,20 +50,10 @@ body{
 }
 
 .list>li{
-  box-sizing: border-box;
   font-size: 2rem;
   margin: 0.5rem;
   cursor: pointer;
 }
 
-ul:focus{
-  background-color: #ffffff;
-  font-size: 50rem;
-}
 
-.App-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;  
-}
 
