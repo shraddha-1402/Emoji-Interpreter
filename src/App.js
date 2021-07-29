@@ -1,23 +1,9 @@
 import './App.css';
 import { useState } from "react";
+import { emojiDictionary } from "./emoji.js"
 
-const emojiDictionary = {
-  "😃": "Happy",
-  "😔": "Sad",
-  "😂": "Laughing",
-  "😭": "Crying",
-  "😷": "Sick",
-  "😍": "Hearty Eyes",
-  "🤑": "Rich",
-  "🤗": "Hugging",
-  "😐": "Neutral",
-  "😴": "Sleepy",
-  "🤔": "Thinking",
-  "😜": "Winking",
-};
 
 function App() {
-
   const [meaning, setMeaning] = useState("");
 
   const inputChanged = (event) => {
