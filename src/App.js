@@ -21,7 +21,7 @@ function App() {
         <input
           placeholder="input emoji"
           className="App-input" onChange={inputChanged} />
-        <h2 className="App-subheading">Meaning: {meaning}</h2>
+        <h2 className="App-subheading">Meaning: <span className="meaning">{meaning}</span></h2>
         <ul className="list">
           {
             Object.keys(emojiDictionary).map((item, index) => {

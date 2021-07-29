@@ -23,17 +23,15 @@ body{
   margin: 2rem 0;
   padding: 1rem;
   height: 1rem;
-  width: 40%;
-}
-
-@media(max-width : 550px){
-  .App-input{
-    width: 80%;
-  }
+  width: 70vmin;
 }
 
 .App-subheading{
-  margin-bottom: 0;
+  margin: 1rem 0;
+}
+
+.meaning{
+  text-decoration: underline;
 }
 
 .list{
@@ -42,6 +40,7 @@ body{
   justify-content: center;
   list-style-type:none;
   padding: 0;
+  max-width: 48rem;
 }
 
 .list>li{
