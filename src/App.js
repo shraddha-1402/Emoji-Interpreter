@@ -7,7 +7,11 @@ function App() {
   const [meaning, setMeaning] = useState("");
 
   const inputChanged = (event) => {
-    let value = emojiDictionary[event.target.value] ? emojiDictionary[event.target.value] : "We do not have the meaning of this emoji :(";
+    let value = emojiDictionary[event.target.value]
+      ? emojiDictionary[event.target.value]
+      : (event.target.value === ""
+        ? ""
+        : "We do not have the meaning of this emoji :(");
     setMeaning(value);
   }
 
